@@ -110,6 +110,14 @@ d3.json(eqURL).then(function (data) {
     };
     ```
 
+- Earthquake Data used:
+
+  - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+
+- Tectonic Plate geospatial data used:
+
+  - https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json
+
 - Code, in general, was adapted from Monash University Data Analytics Boot Camp 2023 course learning material.
 
 Created and written by Samuel Palframan - September 2023.
