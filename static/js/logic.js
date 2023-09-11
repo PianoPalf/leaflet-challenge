@@ -3,7 +3,7 @@ let eqMarkers = [];
 
 // Defines markerSize() function that will give each Earthquake Marker a different radius based Magnitude.
 function markerSize(magnitude) {
-    return magnitude * 40000;
+    return (magnitude ** 3) * 2000;
 };
 
 // Defines markerColor() function that gives each Earthquake Marker a different color based on Depth.
@@ -117,7 +117,6 @@ d3.json(eqURL).then(function (data) {
     let legend = L.control({position: 'bottomright'});
     
     // Create Legend
-    // REFERENCE: https://stackoverflow.com/questions/37701211/custom-legend-image-as-legend-in-leaflet-map
     legend.onAdd = function (map) {
         let div = L.DomUtil.create('div', 'info legend'),
             labels = ["-10-10","10-30","30-50","50-70","80-110","110-150",">150"];

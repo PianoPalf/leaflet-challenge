@@ -23,8 +23,6 @@ Created and submitted for an assignment for Monash University Data Analytics Boo
   - Marker colour corresponds to Earthquake Depth.
   - Yellow lines designate Tectonic Plate boundaries.
 
-
-
 ### index.html
 
 - Interactive map HTML file.
